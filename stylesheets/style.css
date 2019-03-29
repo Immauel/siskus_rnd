@@ -2210,14 +2210,9 @@ h6 { font-size: 16px; line-height: 18px; }
 
 /* Homepage6
 -------------------------------------------------------------- */
-.containers {
-	background-color: #9191E9;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: 100vw;
-	height: 100vh;
-  }
+
+	
+  
   
   .button {
 	text-decoration: none;
@@ -2227,7 +2222,7 @@ h6 { font-size: 16px; line-height: 18px; }
 	display: inline-block;
 	border-radius: 1.5rem;
 	background-color: #fff;
-	color: #9191E9;
+	color: rgb(167, 152, 70);
 	padding: 1rem 2rem;
   }
   
@@ -2281,6 +2276,9 @@ h6 { font-size: 16px; line-height: 18px; }
 	width: 60%;
 	height: 100%;
 	padding: 4rem;
+	text-transform: lowercase;
+	color: #000;
+	font-family: 'Times New Roman', Times, serif;
   }
   .popup__text h1 {
 	font-size: 2rem;
@@ -2290,9 +2288,9 @@ h6 { font-size: 16px; line-height: 18px; }
 	color: #0A0A0A;
   }
   .popup__text p {
-	font-size: .875rem;
-	color: #686868;
-	line-height: 1.5;
+	font-size: 12px;;
+	font-family: 'Times New Roman', Times, serif;
+
   }
   .popup:target {
 	visibility: visible;
