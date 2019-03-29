@@ -329,7 +329,6 @@ nav, nav:before, nav ul li a:hover, nav ul li a.current, nav ul li a:hover:befor
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   nav ul li a span {
     background-image: -webkit-linear-gradient(#fff 45%, #52592a);
-    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: #fff;
     position: relative;
@@ -1615,10 +1614,6 @@ h6 { font-size: 16px; line-height: 18px; }
     z-index: 2;
     top: -4px;
     outline: 0;
-    -webkit-border-radius: 50%;
-       -moz-border-radius: 50%;
-    	-ms-border-radius: 50%;
-    	 -o-border-radius: 50%;
        -webkit-transition: none;
     	  -moz-transition: none;
     	-o-transition: none;
