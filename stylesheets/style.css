@@ -1090,7 +1090,7 @@ h6 { font-size: 16px; line-height: 18px; }
    	margin: 0 auto;
    	width: 100%;
    	position: absolute;
-   	background-color: #222222;
+   	background-color: #8d8d8a;
    	z-index: 1000;
 }
 
@@ -1105,7 +1105,7 @@ h6 { font-size: 16px; line-height: 18px; }
    	margin:0;
    	position: relative;
    	text-align: left;
-   	border-top: 1px solid #c29754;
+   
    	cursor: pointer
 }
 
@@ -1122,13 +1122,12 @@ h6 { font-size: 16px; line-height: 18px; }
    	left: 0;
    	z-index: 2000;
    	position: relative;
-   	background-color: #333333;
+	   background-color: #8d8d8a;
 }
 
 #mainnav-mobi > ul > li > ul > li,
 #mainnav-mobi > ul > li > ul > li > ul > li {
    	position: relative;
-   	border-top: 1px solid #333333;
    	padding-left: 15px;
 }
 
